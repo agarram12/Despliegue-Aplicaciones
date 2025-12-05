@@ -25,7 +25,7 @@ jobs:
         run: pip install pdoc
 
       - name: Generar HTML
-        run: pdoc --html -o docs/ src/ --force
+        run: pdoc -o docs principal.py
 
 
       - name: Desplegar en GitHub Pages

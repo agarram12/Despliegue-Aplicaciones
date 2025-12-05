@@ -1,9 +1,9 @@
 # Práctica entregable Unidad 01: CI/CD y Documentación
 
-Esta es la entre para la práctica de documentación automatica.
+Esta es la entrega para la práctica de documentación automatica.
 ## Ver la documentación
 [Ver repositorio aquí](https://github.com/agarram12/Despliegue-Aplicaciones)
-
+[Ver pages aquí](https://agarram12.github.io/Despliegue-Aplicaciones/main.html)
 ---------
 ## Pasos que se piden y cómo se ha realizado.
 ### 1. Herramientas utilizadas:

@@ -28,7 +28,7 @@ jobs:
         run: pdoc -o docs main.py
 
       - name: Generar Markdown
-        run: pdoc --output-dir docs-md src/
+        run: pdoc --output-dir docs-md main.py
 
       - name: Subir Markdown como Artefacto
         uses: actions/upload-artifact@v4

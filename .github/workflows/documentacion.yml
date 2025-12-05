@@ -27,6 +27,14 @@ jobs:
       - name: Generar HTML
         run: pdoc -o docs main.py
 
+      - name: Generar Markdown
+        run: pdoc --output-dir docs-md src/
+
+      - name: Subir Markdown como Artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: documentacion-markdown
+          path: docs-md/
 
       - name: Desplegar en GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
